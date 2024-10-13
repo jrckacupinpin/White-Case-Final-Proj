@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    
+}
+
+header{
+    background-color: #0b0b04;
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit;
+    position: fixed;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    z-index: 999999;
+
+    .logo{
+        width: 155px;
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+        font-size: 16px;
+
+        li{
+            float: left;
+        }
+
+        li a{
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        li a:hover{
+            color: rgb(11, 175, 245);;
+        }
+    }
+
+    .search{
+        color: rgb(253, 252, 255);
+    }
+}
+
+.block-breadcrumbs{
+    border: 1px solid black;
+
+    ul{
+        display: flex;
+        margin-top: 3.5rem;
+        padding: 15px;
+        gap: 18px;
+        font-size: 16px;
+
+        li a{
+            color: rgb(11, 175, 245);
+            text-decoration: none;
+        }
+
+        li a:hover{
+            text-decoration:underline;
+        }
+    }
+}
+
+.hero-section{
+    .hero-section-cover{
+        .hero-section-background{
+            width: 100%;
+            position: relative;
+            filter: brightness(0.5);
+        }
+
+        .hero-section-bg-label{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 700;
+            font-size: 40px;
+            color: white;
+            position: absolute;
+            top: 15rem;
+            left: 8rem;
+        }
+    }  
+    
+    .hero-section-content{
+        display: flex;
+        justify-content: space-between;
+        gap: 250px;
+        padding: 5rem;
+
+        .hero-section-content-details{
+            margin-top: -2rem;
+
+            h1{
+                font-family: "Libre Baskerville", serif;
+                font-weight: 700;
+                font-size: 25px;
+                margin-bottom: 1rem;
+            }
+
+            p{
+                color: rgb(70, 78, 85);
+                padding: 0rem, 1rem;
+                margin-bottom: 1rem;
+                text-align: justify;    
+            }
+        }
+
+        .hero-section-content-action{
+            padding: 0.7rem 1.5rem;
+            height: 50px;
+            text-align: left;
+            width: 700px;
+            border: none;
+            background: rgb(11, 175, 245);
+            color: white;
+            font-size: 13px;
+        }
+    }
+}
+
+
+.about-section{
+    display: flex;
+    gap: 250px;
+    padding: 5rem;
+
+    h2{
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: -7rem;
+        width: 90%;
+    }
+
+    .about-section-content{
+        margin-top: -7rem;
+        
+        p{
+            color: rgb(70, 78, 85);
+            padding: 0rem, 1rem;
+            margin-bottom: 1rem;
+            text-align: justify;    
+        }
+    }
+}
+
+.blog-spot{
+    display: flex;
+    padding: 5rem;
+    margin-top: -7rem;
+    gap: 50px;
+
+    .blog-spot-content{
+        margin: auto;
+
+        #special{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 700;
+            font-size: 100px;
+            color: rgb(11, 175, 245);
+        }
+
+        p{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: rgb(11, 175, 245);
+            text-align: left;
+            margin-bottom: 4rem;
+        }
+
+        span{
+            color: rgb(11, 175, 245);
+        }
+    }
+}
+
+.hiring-section{
+    margin-top: -5rem;
+
+    .role-section-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem;
+        gap: 430px;
+        margin-top: -1rem;
+
+        h2{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 700;
+            font-size: 25px;
+            margin-bottom: 1rem;
+        }
+        
+        .role-section-content-details{
+            p{
+                color: rgb(70, 78, 85);
+                padding: 0rem, 1rem;
+                margin-bottom: 1rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    .apply-section-content{
+        display: flex;
+        padding: 5rem;
+        gap: 70px;
+        margin-top: -6rem;
+
+        h2{
+            font-family: "Libre Baskerville", serif;
+            font-weight: 700;
+            font-size: 25px;
+            margin-bottom: 1rem;
+            width: 77%;
+        }
+
+        .apply-section-content-details{
+            p{
+                color: rgb(70, 78, 85);
+                padding: 0rem, 1rem;
+                margin-bottom: 1rem;
+                text-align: justify;
+            }
+        }
+
+    }
+}
+
+.map-container{
+    iframe{
+        width: 100%;
+        height: 50vh;
+        filter: invert(5%);
+    }
+}
+
+
+footer{
+    background: #060603;
+    width: 100%;
+    height: 30vh;
+
+    p{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        color: #d5d5d2;
+        padding: 5rem;
+    }
+}

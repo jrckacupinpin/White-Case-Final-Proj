@@ -7,4 +7,6 @@
 ## Description
 This program is a simple written in HTML and CSS only.
 
+## P.S Not Mobile Resposive
+
 ## Jerick Acupinpin
